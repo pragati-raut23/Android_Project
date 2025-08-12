@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/manage_trekking_areas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Trekking Areas" />
+
+    <Button
+        android:id="@+id/send_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Notifications" />
+
+    <Button
+        android:id="@+id/view_usage_metrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Usage Metrics" />
+</LinearLayout>

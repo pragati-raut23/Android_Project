@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signup_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Logo (optional, if needed for Signup screen) -->
+    <ImageView
+        android:id="@+id/signup_logo"
+        android:layout_width="321dp"
+        android:layout_height="159dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/splach_logo" />
+
+    <!-- Sign Up Label -->
+    <TextView
+        android:id="@+id/signup_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background"
+        android:backgroundTint="@color/design_default_color_background"
+        android:hint="Name"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/system_accent3_400" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background"
+        android:backgroundTint="@color/design_default_color_background"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/system_accent3_400" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background"
+        android:backgroundTint="@color/design_default_color_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/system_accent3_400" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <!-- Link to Login Activity -->
+    <TextView
+        android:id="@+id/login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Already have an account? Log In"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

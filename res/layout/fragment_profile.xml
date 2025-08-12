@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/default_avatar"
+        android:contentDescription="@string/profile_picture"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/change_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Picture"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/remove_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Picture"
+        android:layout_gravity="center" />
+
+    <!-- User Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- User Preferences -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preferences"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/user_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Edit Preferences Button -->
+    <Button
+        android:id="@+id/edit_preferences_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Preferences" />
+
+    <!-- Save Changes Button -->
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

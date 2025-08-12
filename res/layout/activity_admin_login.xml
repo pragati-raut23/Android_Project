@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="321dp"
+        android:layout_height="159dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/splach_logo" />
+
+    <TextView
+        android:id="@+id/signup_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Admin Log In"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background"
+        android:backgroundTint="@color/design_default_color_background"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/system_accent3_400"
+        android:hint="User ID"/>
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background"
+        android:backgroundTint="@color/design_default_color_background"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/system_accent3_400"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Back to User Login"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
